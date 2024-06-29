@@ -1,0 +1,7 @@
+fun maxOfTwo(a: Int, b: Int): Int {
+    return if (a > b) a else b
+}
+fun main() {
+    val larger = maxOfTwo(10, 20)
+    println("The larger number is: $larger")
+}
